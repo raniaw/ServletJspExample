@@ -5,10 +5,10 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
-<title>Output</title>
+<title>Insert title here</title>
 </head>
 <body>
-	<h3>Your first and last name is: </h3>
+<h3>Your first and last name is: </h3>
 	<%
 	//String firstName = (String) session.getAttribute("firstname");
 	//String lastName = (String) session.getAttribute("lastname");
