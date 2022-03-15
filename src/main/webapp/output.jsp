@@ -14,19 +14,19 @@
 	//String lastName = (String) session.getAttribute("lastname");
 		String firstName = (String) request.getAttribute("firstname");
 		String lastName = (String) request.getAttribute("lastname");
-
+		//	out.println(firstName + " " + lastName);
 	%>
 	
 	<table>
 		<tr>
 		<td>First Name: </td>
 		<td>
-		<%= firstName %>
+		<%=firstName%>
 		</td>
 		</tr>
 		<td>Last Name: </td>
 		<td>
-		<%= lastName %>
+		<%=lastName%>
 		</td>
 		<tr>
 		</tr>
